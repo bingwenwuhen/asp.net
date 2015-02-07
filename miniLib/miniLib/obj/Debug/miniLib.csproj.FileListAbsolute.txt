@@ -1,0 +1,7 @@
+F:\夏轩\程序\c#\C#加深\miniLib\miniLib\bin\miniLib.dll
+F:\夏轩\程序\c#\C#加深\miniLib\miniLib\bin\miniLib.pdb
+F:\夏轩\程序\c#\C#加深\miniLib\miniLib\obj\Debug\miniLib.csprojResolveAssemblyReference.cache
+F:\夏轩\程序\c#\C#加深\miniLib\miniLib\obj\Debug\miniLib.dll
+F:\夏轩\程序\c#\C#加深\miniLib\miniLib\obj\Debug\miniLib.pdb
+F:\夏轩\程序\c#\C#加深\miniLib\miniLib\bin\log4net.dll
+F:\夏轩\程序\c#\C#加深\miniLib\miniLib\bin\log4net.xml

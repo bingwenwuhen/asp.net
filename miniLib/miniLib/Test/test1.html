@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script type="text/javascript">
+        var data=0;
+        var move = function () {
+            data += 20;
+            var img1 = document.getElementById("img1");
+            img1.style.position = "absolute";
+            img1.style.left = parseInt( "100")+data+"px";
+            img1.style.top = parseInt("200") + data + "px";
+        }
+    </script>
+</head>
+<body>
+    <div id="div1">
+        <marquee behavior=alternate>
+       <img id="img1" src="../images/banner1.jpg" width="50px" height="50px"/>
+            </marquee></div>
+    <input alt="df" type="button" onclick="move()"/>
+</body>
+</html>

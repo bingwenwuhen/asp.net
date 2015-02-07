@@ -1,0 +1,38 @@
+﻿<html>
+<head>
+<script type="text/javascript">
+    function myFunction() {
+        var a = document.getElementById('ss').value;
+        var arr = [1, 1, 2, 3, 5, 8, 13];
+        for (var i = 1; i <= 15; i++) {
+            //document.getElementById('dd').value=document.getElementById('ss').value;
+
+            if (i == a) {
+
+                for (var n = 0; n < arr.length; n++) {
+                    if (a == arr[n]) {
+                        alert("" + n);
+                        document.getElementById('dd').setAttribute("value", "" + n);
+
+
+                    }
+
+                }
+                break;
+
+            }
+            if (i == 15) {
+
+                alert("输入的值有误！请重新输入！");
+            }
+
+        }
+    }
+</script>
+</head>
+<body>
+<input  id="ss"  type="text"/></br>
+<input id="dd"  type="text"/ ></br>
+<button type="button" onclick="myFunction()">点击查看</button>
+</body>
+</html>

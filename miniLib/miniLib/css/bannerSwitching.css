@@ -1,0 +1,16 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.bannerContent,.bannerContent .bannerMain,.bannerContent .bannerMain ul,.bannerContent .bannerMain ul li{ width:100%; height:100%;}
+.bannerContent .bannerMain ul{ position:relative; z-index:0;}
+.bannerContent .bannerMain ul li{ overflow:hidden; display:block; position:absolute; top:0; left:0;}
+.bannerMenu{ position:absolute; top:auto; bottom:108px; width:100%; min-width:730px;height: 165px; text-align:center;}
+.bannerMenu ul{height: 162px;}
+.bannerMenu li{ background:url(images/tabBottomBg.png) center bottom no-repeat; padding-bottom:15px; display:inline-block; *display:inline; *zoom:1; cursor:pointer; width:15%; margin:0 66px; text-align:center;}
+.bannerMenu li .tabBox{ width:142px; height:143px; overflow:hidden;display:inline-block; *display:inline; *zoom:1;}
+.bannerMenu li .tabBox a{ display:block;}
+.bannerMenu li:hover{ background:url(../images/tatabBottomBgHover.png) center bottom no-repeat;}
+.bannerMenu li .tabItems{ background:url(../images/tabBg.png) center center no-repeat; text-align:center; width:140px; height:140px; /*margin-top:200px;*/ padding-top:10px;}
+.bannerMenu li:hover .tabItems{background:url(../images/tabBgHover.png) center center no-repeat;}
+.bannerMenu li .tabItems img{ margin-top:33px;}
+.titleImg{ position:absolute; top:30%; left:50%;}
+.bannerMain{ overflow:visible;}

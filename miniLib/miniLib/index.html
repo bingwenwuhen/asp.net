@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>miniLib</title>
+    <script type="text/javascript">
+        var Login = function () {
+            var mainbody = document.getElementById("mainBody");
+            mainbody.style.backgroundImage = 'url(images/banner1.jpg)';
+        }
+
+        var Register = function () {
+            var mainbody = document.getElementById("mainBody");
+            mainbody.style.backgroundImage = 'url(images/banner2.jpg)';
+        }
+
+        var Scan = function () {
+            var mainbody = document.getElementById("mainBody");
+            mainbody.style.backgroundImage = 'url(images/background.jpg)';
+        }
+    </script>
+    <link href="css/bannerSwitching.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body id="mainBody" style="background-image: url(images/background.jpg)">
+
+     <div class="bannerContent">
+        <div class="bannerMenu">
+            <ul>
+                <li>
+                    <div class="tabBox">
+                        <a id="home_campus" href="Login.aspx">
+                            <div class="tabItems">
+                                <div class="campusIcon"></div>
+                                <span onmouseover="Login()" class="i18n" i18nkey="common.nav.campus">登录</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="tabBox">
+                        <a id="home_social" href="Register.aspx">
+                            <div id="socialImg" class="tabItems">
+                                <div class="socialIcon"></div>
+                                <span onmouseover="Register()" class="i18n" i18nkey="common.nav.joinUs">注册</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="tabBox">
+                        <a id="home_resume" href="portal_index.html">
+                            <div id="resumeImg" class="tabItems">
+                                <div class="resumeIcon"></div>
+                                <span onmouseover="Scan()" class="i18n" i18nkey="common.nav.portalIndex">浏览信息</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
